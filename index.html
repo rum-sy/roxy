@@ -1,0 +1,618 @@
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+<body>
+   <div class="searchbox">
+     <div class="header">
+        <h1>SOS 오아시스 퀴즈</h1>
+        <input onkeyup="filter()" type="text" id="value" placeholder="문제 또는 답 검색">
+      </div>
+
+      <div class="container">
+
+        <div class="item">
+          <span class="name">4곳의 상점에 물건이있습니다 시간이 부족하여 한 곳만! 어디?</span>
+          <span class="icon">약국</span>
+        </div>
+
+        <div class="item">
+          <span class="name">VIP 몇 일 때 추가 행군 슬롯이 생기나?</span>
+          <span class="icon">8</span>
+        </div>
+
+        <div class="item">
+          <span class="name">VIP 레벨이 몇레벨이 되었을 때 일일 무료 상자에서 전설급 영웅 조각을 받을 수 있나요?</span>
+          <span class="icon">7</span>
+        </div>
+
+        <div class="item">
+          <span class="name">VIP 일일 보상에서 하루에 최대 몇개의 전설 영웅조각을 받을 수 있나요?</span>
+          <span class="icon">6</span>
+        </div>
+
+        <div class="item">
+          <span class="name">감염자 군단 시작 요일은?</span>
+          <span class="icon">화, 목</span>
+        </div>
+
+        <div class="item">
+          <span class="name">감염자 군단 최종 타켓?</span>
+          <span class="icon">동맹본</span>
+        </div>
+
+        <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+
+        <div class="item">
+          <span class="name">감염자를 완전히 제거하려면 어느 부위에서 공격?</span>
+          <span class="icon">모자</span>
+        </div>
+		   <div class="item">
+          <span class="name">거룩한 분노의 성경은 무엇인가요?</span>
+          <span class="icon">거룩한 분노의 편지
+			  </span>
+		  </div>
+		  <div class="item">
+          <span class="name">게임에서 영웅 데릴의 가슴에 달고 다니는 훈장은 누가 준 것?</span>
+          <span class="icon">직접 만듬</span>
+        </div>
+		  <div class="item">
+          <span class="name">경상,중상,사망에 대한 묘사 중 정확한 것은?</span>
+          <span class="icon">위 내용 전부</span>
+        </div>
+		  <div class="item">
+          <span class="name">고스트 옷에 있는 숫자는?</span>
+          <span class="icon">56</span>
+        </div>
+		  <div class="item">
+          <span class="name">고스트가 제일 좋아하는 일은?</span>
+          <span class="icon">그림그리기</span>
+        </div>
+		  <div class="item">
+          <span class="name">근거지 발전 혜택에 포함되지 않는 것은?</span>
+          <span class="icon">병력 훈련 속도가 증가</span>
+        </div>
+		  <div class="item">
+          <span class="name">근거지 전투 혜택에 포함되지 않는 것은?</span>
+          <span class="icon">행군 속도가 빨라집니다.</span>
+        </div>
+		  <div class="item">
+          <span class="name">근거지 휴전 신호탄은 몇시간에 하나씩 무료로 생성?</span>
+          <span class="icon">168</span>
+        </div>
+		  <div class="item">
+          <span class="name">근거지가 몇 레벨일 때 지휘관 훈장을 잠금해제?</span>
+          <span class="icon">25</span>
+        </div>
+		  <div class="item">
+          <span class="name">근거지에 최대 몇 개의 길을 설치할 수 있나요?</span>
+          <span class="icon">300</span>
+        </div>
+		  <div class="item">
+          <span class="name">근거지에서 모두가 인정하는 최고의 미적 감각 소유자는 누구인가요?</span>
+          <span class="icon">고스트</span>
+        </div>
+		  <div class="item">
+          <span class="name">내 vip 혜택이 적용되지 않는 이유는 무엇일까요?</span>
+          <span class="icon">vip혜택을 활성화 하지 않아서.</span>
+        </div>
+		  <div class="item">
+          <span class="name">농구장을 개조해서 만든 곳은? </span>
+          <span class="icon">병영</span>
+        </div>
+		  <div class="item">
+          <span class="name">농장은 최대 몇 개까지 건설 가능한가요?</span>
+          <span class="icon">4</span>
+        </div>
+		  <div class="item">
+          <span class="name">누구의 노래소리가 제일 살상력이 있나요?</span>
+          <span class="icon">러스티</span>
+        </div>
+		  <div class="item">
+          <span class="name">대규모 감염자 공격 발생 시 아래 중 잘못된 행동은?</span>
+          <span class="icon">파티하기</span>
+        </div>
+		  <div class="item">
+          <span class="name">대규모 감염자에게 포위됐을때 아래중 잘못된 처리방식은?</span>
+          <span class="icon">항복하기</span>
+        </div>
+		  <div class="item">
+          <span class="name">데릴의 특징이 아닌 것은?</span>
+          <span class="icon">조심성이 없다</span>
+        </div>
+		  <div class="item">
+          <span class="name">데릴이 사용하는 교통수단은?</span>
+          <span class="icon">오토바이</span>
+        </div>
+		  <div class="item">
+          <span class="name">데릴이 사용하는 무기 종류는?</span>
+          <span class="icon">화살</span>
+        </div>
+		  <div class="item">
+          <span class="name">데릴이 사용해보지 않은 무기는?</span>
+          <span class="icon">궁</span>
+        </div>
+		  <div class="item">
+          <span class="name">동맹 기부는 1회 회복에 필요한 시간은?</span>
+          <span class="icon">10분</span>
+        </div>
+		  <div class="item">
+          <span class="name">동맹 명예를 획득할수 없는 경로는?</span>
+          <span class="icon">병력훈련 타이머</span>
+        </div>
+		  <div class="item">
+          <span class="name">동맹 영토 연결을 하지 않고 바로 공격할 수 있는 건물은?</span>
+          <span class="icon">강화된 벙커</span>
+        </div>
+		  <div class="item">
+          <span class="name">동맹 자원이 동맹 영토에 어느정도 속해 있어야 점령?</span>
+          <span class="icon">완전 점령</span>
+        </div>
+		  <div class="item">
+          <span class="name">동맹이 수용 가능한 최대 인원수는?</span>
+          <span class="icon">100</span>
+        </div>
+		  <div class="item">
+          <span class="name">드라마에서 데릴이 본인이 싫어하는 일이라고 명확하게 말한 것은 무엇인가요?</span>
+          <span class="icon">술마시기</span>
+        </div>
+		  <div class="item">
+          <span class="name">드라마에서 데릴이 처음으로 RPG로 한 일은?</span>
+          <span class="icon">폭주족 처치</span>
+        </div>
+		  <div class="item">
+          <span class="name">딸을 잃은 어머니에게 데릴이 건넨 선물은?</span>
+          <span class="icon">체로키 장미</span>
+        </div>
+		  <div class="item">
+          <span class="name">라이더가 아닌 영웅?</span>
+          <span class="icon">토니</span>
+        </div>
+		  <div class="item">
+          <span class="name">랠리 시, 동맹원이 보내온 영웅 중 어떤 영웅의 스킬이 실행?</span>
+          <span class="icon">전투력 높은 놈</span>
+        </div>
+		  <div class="item">
+          <span class="name">레이는 예전에 어떤사업을 경영했나요?</span>
+          <span class="icon">나이트클럽, 무기밀거래</span>
+        </div>
+		  <div class="item">
+          <span class="name">레이더의 생존 자원은 어디서 나오는 것?</span>
+          <span class="icon">사기와 약탈</span>
+        </div>
+		  <div class="item">
+          <span class="name">레이더즈 멤버는 누구인가요? </span>
+          <span class="icon">빌리</span>
+        </div>
+		  <div class="item">
+          <span class="name">레이의 펫은 무슨 동물인가요? </span>
+          <span class="icon">매</span>
+        </div>
+		  <div class="item">
+          <span class="name">매디 강아지 견종은?</span>
+          <span class="icon">핏불 테리어</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">무기로 사용하기 알맞지 않은 것은?</span>
+          <span class="icon">면도기</span>
+        </div>
+		  <div class="item">
+          <span class="name">바질의 호랑이 이름은?</span>
+          <span class="icon">파하드</span>
+        </div>
+		  <div class="item">
+          <span class="name">베카는 어느 세력의 멤버일까요?</span>
+          <span class="icon">마지막 희망</span>
+        </div>
+		  <div class="item">
+          <span class="name">병영 캠프는 최대 몇 개까지 건설 가능?</span>
+          <span class="icon">4</span>
+        </div>
+		  <div class="item">
+          <span class="name">병영이 몇 레벨이 되었을 때 T9병사를 잠금 해제할 수 있나요?</span>
+          <span class="icon">26</span>
+        </div>
+		  <div class="item">
+          <span class="name">병원 레벨을 업그레이드 하면 어떤 혜택이 있나요?</span>
+          <span class="icon">치료 수용력</span>
+        </div>
+		  <div class="item">
+          <span class="name">보병이 아닌 캐릭은?</span>
+          <span class="icon">바질</span>
+        </div>
+		  <div class="item">
+          <span class="name">본부가 몇 레벨일 때 영웅장비가 잠금 해제?</span>
+          <span class="icon">16</span>
+        </div>
+		  <div class="item">
+          <span class="name">상사의 원래 직업은?</span>
+          <span class="icon">해병대 중사</span>
+        </div>
+		  <div class="item">
+          <span class="name">데릴 캐릭터 강아지 이름?</span>
+          <span class="icon">강아지</span>
+        </div>
+		  <div class="item">
+          <span class="name">셰프가 잘하는 요리는?
+</span>
+          <span class="icon">바비큐
+</span>
+        </div>
+		  <div class="item">
+          <span class="name">셰프가 제일 좋아하는 음식은?
+</span>
+          <span class="icon">햄버거</span>
+        </div>
+		  <div class="item">
+          <span class="name">수도 쟁탈전 지휘관 보상에는 몇 개의 상자가?</span>
+          <span class="icon">3</span>
+        </div>
+		  <div class="item">
+          <span class="name">수도 쟁탈전 지휘관 보상에는 몇가지 명예 버프가 포함?</span>
+          <span class="icon">6</span>
+        </div>
+		  <div class="item">
+          <span class="name">수도 쟁탈전에서 얼마나 오랫동안 점령을 해야 바로 승리?</span>
+          <span class="icon">6시간</span>
+        </div>
+		  <div class="item">
+          <span class="name">수도 쟁탈전의 최장 진행 시간은?</span>
+          <span class="icon">12시간</span>
+        </div>
+		  <div class="item">
+          <span class="name">수도 쟁탈전의 타워가 한번 공격하는 최단 시간은?</span>
+          <span class="icon">60초</span>
+        </div>
+		  <div class="item">
+          <span class="name">수도 쟁탈전의 타워가 한번 공격하는 최장 시간은? </span>
+          <span class="icon">300초</span>
+        </div>
+		  <div class="item">
+          <span class="name">수도전에서 포탑 1회 공격시 데미지 몇%</span>
+          <span class="icon">2%</span>
+        </div>
+		  <div class="item">
+          <span class="name">수도전의 쟁탈 주기는?</span>
+          <span class="icon">2주</span>
+        </div>
+		  <div class="item">
+          <span class="name">아래 영웅 중 감옥에서 탈출한 영웅은?</span>
+          <span class="icon">에바</span>
+        </div>
+		  <div class="item">
+          <span class="name">아래 영웅 중 반려동물이 없는 영웅은?</span>
+          <span class="icon">니콜라</span>
+        </div>
+		  <div class="item">
+          <span class="name">아래 영웅 중 선글라스를 자주 착용하는 영웅은?</span>
+          <span class="icon">러스티</span>
+        </div>
+		  <div class="item">
+          <span class="name">아래 조직 중 제일 부유한 조직은?</span>
+          <span class="icon">기가코프</span>
+        </div>
+		  <div class="item">
+          <span class="name">아래 중 드라마 속 데릴이 잘하는 것이 아닌 것은?</span>
+          <span class="icon">원거리사격</span>
+        </div>
+		  <div class="item">
+          <span class="name">아래 중 마지막 희망 멤버는 누구인가요?</span>
+          <span class="icon">맥심</span>
+        </div>
+		  <div class="item">
+          <span class="name">아래에서 어느 영웅이 레이더즈 출신인가?</span>
+          <span class="icon">러스티</span>
+        </div>
+		  <div class="item">
+          <span class="name">야외에서 쓰러진 사람을 만났을 때 구조 방법이 아닌 것은?</span>
+          <span class="icon">앉히고 때리기</span>
+        </div>
+		  <div class="item">
+          <span class="name">어떤 건물을 건설해야 근거지 밖으로 나갈 수 있나요?</span>
+          <span class="icon">첩보초소</span>
+        </div>
+		  <div class="item">
+          <span class="name">어떻게 하면 더 오랫동안 감염자 침입을 막을 수 있나요?</span>
+          <span class="icon">성벽 레벨 업그레이드</span>
+        </div>
+		  <div class="item">
+          <span class="name">어떻게 하면 번영도 속도가 더 빨라지나요?</span>
+          <span class="icon">더 많은 장식 건설하기</span>
+        </div>
+		  <div class="item">
+          <span class="name">에너지 셀의 사용 방법은?</span>
+          <span class="icon">트랩기부로 동맹코인받기</span>
+        </div>
+		  <div class="item">
+          <span class="name">에바 팔에 있는 문신은 어떤 도안인가요?</span>
+          <span class="icon">빨간 장미</span>
+        </div>
+		  <div class="item">
+          <span class="name">에바의 별명?</span>
+          <span class="icon">블랙위도우</span>
+        </div>
+		  <div class="item">
+          <span class="name">영웅 초기화 기능은 근거지 몇 렙에 뜹니까?</span>
+          <span class="icon">15</span>
+        </div>
+		  <div class="item">
+          <span class="name">와일드 레이싱의 아이템은 어디서 나오나요?</span>
+          <span class="icon">일일 보상 상자</span>
+        </div>
+		  <div class="item">
+          <span class="name">운 좋게 아직 식량이 남아있는 마트를 발견 한다면, 어떤 음식을 먼저 챙겨야 하나요?</span>
+          <span class="icon">단백질 스틱</span>
+        </div>
+		  <div class="item">
+          <span class="name">윌리는 왜 매디를 납치했나요?? </span>
+          <span class="icon">레이더즈 합류를 위해</span>
+        </div>
+		  <div class="item">
+          <span class="name">인플루언서 트랩 쿨타임은?</span>
+          <span class="icon">47시간</span>
+        </div>
+		  <div class="item">
+          <span class="name">인플루언서 트랩에 더 높은 데미지를 가하려면 어떻게?</span>
+          <span class="icon">(A) 보병을 뺍니다.</span>
+        </div>
+		  <div class="item">
+          <span class="name">일기로 위치를 파악 할 수 있는 감염자의 종류는?</span>
+          <span class="icon">2</span>
+        </div>
+		  <div class="item">
+          <span class="name">일일 드랍은 하루에 얼만큼의 지휘관 기력을 획득?</span>
+          <span class="icon">100</span>
+        </div>
+		  <div class="item">
+          <span class="name">일일 보상 밋현에는 총 몇 개의 상자가 포함되어있?</span>
+          <span class="icon">7</span>
+        </div>
+		  <div class="item">
+          <span class="name">자원 노드의 최고 레벨은 몇 레벨인가요?</span>
+          <span class="icon">8</span>
+        </div>
+		  <div class="item">
+          <span class="name">재능 포인트를 사용하여 "빠른 개발" 후, 건설 혹은 연구를 진행 했을 때 몇% 단축?</span>
+          <span class="icon">20%</span>
+        </div>
+		  <div class="item">
+          <span class="name">적자생존 개방 주기는?</span>
+          <span class="icon">2주마다 1회씩</span>
+        </div>
+		  <div class="item">
+          <span class="name">전투 중 보병의 역할은?</span>
+          <span class="icon">데미지 받기</span>
+        </div>
+		  <div class="item">
+          <span class="name">전투중, 공격과 방어의 차이가 있습니다. 만약 양측의 병원이 모두 다 비어있는 상태라면, 어느쪽 병력이 사망 가능성 높?</span>
+          <span class="icon">공격측</span>
+        </div>
+		  <div class="item">
+          <span class="name">제일 먼저 공격을 받게 되는 병력은?</span>
+          <span class="icon">보병</span>
+        </div>
+		  <div class="item">
+          <span class="name">좀비 시체 제거 방법?</span>
+          <span class="icon">불 태우기</span>
+        </div>
+		  <div class="item">
+          <span class="name">줄리 가르시아와 베카의 관계는?</span>
+          <span class="icon">베카의 양엄마</span>
+        </div>
+		  <div class="item">
+          <span class="name">지휘관 재능은 총 몇가지 인가요? </span>
+          <span class="icon">2</span>
+        </div>
+		  <div class="item">
+          <span class="name">지휘관 최고 레벨은?</span>
+          <span class="icon">60</span>
+        </div>
+		  <div class="item">
+          <span class="name">지휘관은 최대 몇 개의 행군 슬롯을 보유할 수 있나요?</span>
+          <span class="icon">6</span>
+        </div>
+		  <div class="item">
+          <span class="name">체로카의 장미는?</span>
+          <span class="icon">꽃</span>
+        </div>
+		  <div class="item">
+          <span class="name">한 동맹의 초기 수용 가능한 동맹원은 몇 명인가요?</span>
+          <span class="icon">50</span>
+        </div>
+		  <div class="item">
+          <span class="name">최고 레벨인 3명의 영웅이 각각 50, 60, 70레벨이라면 특수훈련에서 다른 영웅의 레벨은?</span>
+          <span class="icon">50</span>
+        </div>
+		  <div class="item">
+          <span class="name">최후의 날에 당신의 차가 갑자기 고장났습니다. 잘못된 처리방식은?</span>
+          <span class="icon">서비스 센터의 구조 대기</span>
+        </div>
+		  <div class="item">
+          <span class="name">최후의 날에 아래 어떤 물건을 먼저 버릴 수 있나요?</span>
+          <span class="icon">현금</span>
+        </div>
+		  <div class="item">
+          <span class="name">최후의 날에 옷을 많이 입어야 하는 이유는 무엇인가요?</span>
+          <span class="icon">감염자한테 물려 상처나지 않기 위하여</span>
+        </div>
+		  <div class="item">
+          <span class="name">최후의 날에 지폐의 가장 좋은 사용 방법은?</span>
+          <span class="icon">연료</span>
+        </div>
+		  <div class="item">
+          <span class="name">출혈이 있을 때의 잘못된 처치 방법은?</span>
+          <span class="icon">상처를 더  크게 만들기</span>
+        </div>
+		  <div class="item">
+          <span class="name">친구가 다쳤습니다, 아래 중 잘못된 행동은 무엇인가요? </span>
+          <span class="icon">계속 전투하라고 하기</span>
+        </div>
+		  <div class="item">
+          <span class="name">클라인은 어느 회사 ceo인가??</span>
+          <span class="icon">기가코프</span>
+        </div>
+		  <div class="item">
+          <span class="name">탐험에서 어떤 종류의 영웅이 자유롭게 움직일 수 있나요?</span>
+          <span class="icon">싸움꾼</span>
+        </div>
+		  <div class="item">
+          <span class="name">토니의 원래 직업은?</span>
+          <span class="icon">영화 배우</span>
+        </div>
+		  <div class="item">
+          <span class="name">토니의 헤드셋은 무슨 색?</span>
+          <span class="icon">검은색</span>
+        </div>
+		  <div class="item">
+          <span class="name">트래비스 출신 영웅은? (트래비스)</span>
+          <span class="icon">러스티</span>
+        </div>
+		  <div class="item">
+          <span class="name">트래비스가 제일 좋아하는 일은</span>
+          <span class="icon">사냥</span>
+        </div>
+		  <div class="item">
+          <span class="name">트래비스의 직업은 무엇인가요?</span>
+          <span class="icon">사냥꾼</span>
+        </div>
+		  <div class="item">
+          <span class="name">특수훈련 동시에 몇 명?</span>
+          <span class="icon">15</span>
+        </div>
+		  <div class="item">
+          <span class="name">포악한 감염자를 랠리할 때, 최단 랠리 시간은?</span>
+          <span class="icon">5분</span>
+        </div>
+		  <div class="item">
+          <span class="name">프랭크가 니콜라를 싫어하는 이유는 무엇인가?</span>
+          <span class="icon">니콜라의 기괴한 공구</span>
+        </div>
+		  <div class="item">
+          <span class="name">프랭크와 데릴의 강아지는 무슨 관계?</span>
+          <span class="icon">떨어질 수 없는 사이</span>
+        </div>
+		  <div class="item">
+          <span class="name">플래시 번들은 하루에 몇 개의 영웅조각을 구매할 수 있나?</span>
+          <span class="icon">36</span>
+        </div>
+		  <div class="item">
+          <span class="name">헌터가 아닌 영웅은?</span>
+          <span class="icon">제인</span>
+        </div>
+		  <div class="item">
+          <span class="name">헬릭서는 무슨 기관인가요?</span>
+          <span class="icon">생물 실험실</span>
+        </div>
+		  <div class="item">
+          <span class="name">호프만은 누구의 아버지인가요?</span>
+          <span class="icon">베카</span>
+        </div>
+		  <div class="item">
+          <span class="name">황무지에서 아래 중 어느 것이 방향 판단 잘못된 근거?</span>
+          <span class="icon">직감</span>
+        </div>
+		  <div class="item">
+          <span class="name">최후의 날에 아래 중 어떤 행동이 황무지 식량 획득이 불가능 한가요?</span>
+          <span class="icon">인터넷 쇼핑</span>
+        </div>
+		  <div class="item">
+          <span class="name">치료 스피드업이 없는 상황에서 대량의 병력이 부상을 당했을 때, 어떤 방법이 가성비가 좋은 치료 방법인가요?</span>
+          <span class="icon">여러 조로 나누어 치료하며 동맹에게 도움 요청</span>
+        </div>
+		  <div class="item">
+          <span class="name">데릴은 어느 영화의 캐릭터 인가요?</span>
+          <span class="icon">워킹데드</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  <div class="item">
+          <span class="name">감염자를 만났을 때 어떻게 해야 하나요?</span>
+          <span class="icon">도망가기</span>
+        </div>
+		  </div>
+	   
+	   <script src="assets/js/main.js"></script>
+	   </div>
+</body>
