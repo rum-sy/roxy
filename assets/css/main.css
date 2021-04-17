@@ -19,6 +19,13 @@ body{
   margin: 0;
   margin-bottom: 8px;
 }
+.header h2{
+  text-transform: uppercase;
+  text-align:right;
+  color: black;
+  margin: 0;
+  margin-bottom: 1px;
+}
 #value{
   font: inherit;
   border: 0;
@@ -55,9 +62,11 @@ body{
   width: 350px;
   height: 25px;
   background: #E0D3B6;
-  color: white;
+  color: black;
   font-size: 15px;
+  font-weight: Bold;
   text-align: center;
+  text-shadow: 0 0 3px #ffffff;
   line-height: 25px;
   border-radius: 25px;
   margin-left: 30px;
