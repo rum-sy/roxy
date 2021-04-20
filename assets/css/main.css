@@ -65,6 +65,7 @@ body{
   height: 25px;
   background-color:rgba(145,154,255,0.4);
   background-size:auto;
+  background-repeat: repeat;
   color: black;
   font-size: 0.875rem;
   font-weight: Bold;
