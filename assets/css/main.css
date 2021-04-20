@@ -64,6 +64,7 @@ body{
   width: 350px;
   height: 25px;
   background-color:rgba(145,154,255,0.4);
+  background-size:contain;
   color: black;
   font-size: 0.875rem;
   font-weight: Bold;
