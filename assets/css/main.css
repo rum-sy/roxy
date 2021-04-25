@@ -60,6 +60,13 @@ body{
   display: flex;
   align-items: center;
 }
+.item2{
+  margin: 0.0% 0px;
+  height: 55px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
 .icon{
   width: 350px;
   height: 25px;
@@ -75,7 +82,24 @@ body{
   border-radius: 25px;
   margin-left: 0px;
 }
+.icon2{
+  text-transform: uppercase;
+  text-align:right;
+  color: black;
+  height: 10px;
+  font-size: 1.460rem;
+  font-weight: bold;
+  margin-left: 89rem;
+  margin-bottom: 1px;
+}
 .name{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 470;
+  padding: 16px;
+  color: #000000;
+}
+.name2{
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-size: 0.875rem;
   font-weight: 470;
@@ -215,6 +239,7 @@ body{
 }
 .MuiButton-label {
   width: 100%;
+  font-weight: bold;
   display: inherit;
   align-items: inherit;
   justify-content: inherit;
